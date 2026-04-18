@@ -81,7 +81,7 @@ footer {
    表（手順・役割分担）
    - 横線と余白で読みやすく
    - ヘッダー行に薄い背景色
------------------------------------------ */
+
 table.task-table {
   width: 100%;
   border-collapse: collapse;
@@ -99,4 +99,49 @@ table.task-table td {
 table.task-table th {
   background: #f0f0f0;
   text-align: left;
+}
+----------------------------------------- */
+/* -----------------------------------------
+   表（手順・役割分担）
+   - 横線と余白で読みやすく
+   - ヘッダー行に薄い背景色
+   - 全体を白背景にしてカード風に
+----------------------------------------- */
+table.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  overflow: hidden; /* 角丸を有効にする */
+}
+
+/* セルの基本デザイン */
+table.task-table th,
+table.task-table td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* ヘッダー行のデザイン */
+table.task-table th {
+  background: #f0f0f0;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* 偶数行に薄い背景色をつけて読みやすく */
+table.task-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* スマホ対応：横スクロールを許可 */
+@media (max-width: 600px) {
+  table.task-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
