@@ -77,3 +77,26 @@ footer {
   margin-top: 40px;
   color: #777;
 }
+/* -----------------------------------------
+   表（手順・役割分担）
+   - 横線と余白で読みやすく
+   - ヘッダー行に薄い背景色
+----------------------------------------- */
+table.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background: #fff;
+}
+
+table.task-table th,
+table.task-table td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+table.task-table th {
+  background: #f0f0f0;
+  text-align: left;
+}
