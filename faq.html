@@ -7,6 +7,7 @@
   <meta charset="UTF-8">
   <title>FAQ</title>
 
+  <!-- GitHub と同じ Markdown スタイル -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
 
   <style>
@@ -26,7 +27,7 @@
 
 <body>
   <article class="markdown-body">
-    {% include faq.md %}
+    {{ site.pages | where: "name", "faq.md" | first | content | markdownify }}
   </article>
 </body>
 </html>
