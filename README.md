@@ -1,1 +1,1 @@
-# test-faq
+# FAQ
