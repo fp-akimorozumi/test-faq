@@ -49,7 +49,7 @@ td:nth-child(1) {
 /* 2列目（内容） */
 th:nth-child(2),
 td:nth-child(2) {
-  width: 240px;    /* 内容が長いので広め */
+  width: 400px;    /* 内容が長いので広め */
 }
 
 /* 3列目（パートナー様担当） */
