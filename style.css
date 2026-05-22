@@ -16,7 +16,7 @@ table {
 th, td {
   border: 1px solid #ddd;
   padding: 10px 12px;
-  font-size: 14px;
+  font-size: 13px;
   color: #333;
 }
 
@@ -49,7 +49,7 @@ td:nth-child(1) {
 /* 2列目（内容） */
 th:nth-child(2),
 td:nth-child(2) {
-  width: 400px;    /* 内容が長いので広め */
+  width: 240px;    /* 内容が長いので広め */
 }
 
 /* 3列目（パートナー様担当） */
