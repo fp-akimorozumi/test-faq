@@ -1,145 +1,38 @@
 /* -----------------------------------------
-   ページ全体の基本設定
-   - 日本語でも読みやすいフォント
-   - 背景を薄いグレーにして柔らかい印象
-   - 余白を確保して読みやすく
+   Markdown の表デザイン（色付き）
 ----------------------------------------- */
-body {
-  font-family: "Hiragino Sans", sans-serif;
-  background: #f7f7f7;
-  margin: 0;
-  padding: 20px;
-  color: #333;
-}
-
-/* -----------------------------------------
-   ヘッダー部分
-   - ロゴは左揃え
-   - タイトルと説明文は中央揃え
-   - 下に余白をつけてコンテンツと区切る
------------------------------------------ */
-header {
-  margin-bottom: 40px;
-}
-
-/* ロゴ画像だけ左揃えにする */
-header img {
-  display: block;
-  margin: 0 0 20px 0;
-}
-
-/* タイトルと説明文は中央揃え */
-header h1,
-header p {
-  text-align: center;
-}
-
-
-/* -----------------------------------------
-   ページタイトル（h1）
-   - アクセントカラーで視線を集める
------------------------------------------ */
-h1 {
-  color: #007acc;
-  margin-bottom: 10px;
-}
-
-/* -----------------------------------------
-   FAQ のカードデザイン
-   - 白背景＋影でカード風に
-   - 角丸で柔らかい印象
-   - 下に余白をつけて読みやすく
------------------------------------------ */
-.faq-item {
-  background: #fff;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-/* -----------------------------------------
-   FAQ の質問タイトル（h2）
-   - 文字色を濃くして読みやすく
------------------------------------------ */
-.faq-item h2 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-/* -----------------------------------------
-   フッター
-   - 中央揃えでシンプルに
-   - 色を薄くして控えめに表示
------------------------------------------ */
-footer {
-  text-align: center;
-  margin-top: 40px;
-  color: #777;
-}
-/* -----------------------------------------
-   表（手順・役割分担）
-   - 横線と余白で読みやすく
-   - ヘッダー行に薄い背景色
-
-table.task-table {
-  width: 100%;
+table {
+  width: var(--table-width, 100%);
   border-collapse: collapse;
-  margin-bottom: 30px;
-  background: #fff;
-}
-
-table.task-table th,
-table.task-table td {
-  border: 1px solid #ddd;
-  padding: 8px 10px;
-  font-size: 14px;
-}
-
-table.task-table th {
-  background: #f0f0f0;
-  text-align: left;
-}
------------------------------------------ */
-/* -----------------------------------------
-   表（手順・役割分担）
-   - 横線と余白で読みやすく
-   - ヘッダー行に薄い背景色
-   - 全体を白背景にしてカード風に
------------------------------------------ */
-table.task-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: #fff;
+  background: #ffffff;
   margin-bottom: 30px;
   border-radius: 8px;
-  overflow: hidden; /* 角丸を有効にする */
+  overflow: hidden;
 }
 
 /* セルの基本デザイン */
-table.task-table th,
-table.task-table td {
+th, td {
   border: 1px solid #ddd;
   padding: 10px 12px;
   font-size: 14px;
   color: #333;
 }
 
-/* ヘッダー行のデザイン */
-table.task-table th {
-  background: #f0f0f0;
+/* ヘッダー行の色（ここを変えると印象が変わる） */
+th {
+  background: #d8ecff;   /* ← 淡い青 */
   font-weight: bold;
   text-align: left;
 }
 
-/* 偶数行に薄い背景色をつけて読みやすく */
-table.task-table tbody tr:nth-child(even) {
-  background: #fafafa;
+/* 偶数行の背景色 */
+tbody tr:nth-child(even) {
+  background: #f5faff;   /* ← さらに淡い青 */
 }
 
-/* スマホ対応：横スクロールを許可 */
+/* スマホ対応 */
 @media (max-width: 600px) {
-  table.task-table {
+  table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
