@@ -86,6 +86,8 @@ td:nth-child(6) {
 }
 
 /* 左上の"test_faq"のリンクを非表示にする */
-header {
+.site-header,
+.site-title,
+.wrapper {
   display: none !important;
 }
