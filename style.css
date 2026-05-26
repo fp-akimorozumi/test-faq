@@ -93,7 +93,13 @@ td:nth-child(6) {
 
 /* ページ全体の最大幅を制限して中央寄せにする */
 body {
+  padding: 40px;
+  background: #f6f8fa;
+}
+
+.markdown-body {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  background: white;
 }
