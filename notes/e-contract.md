@@ -1,7 +1,3 @@
----
-markdown: GFM
-title: ''
----
 <link rel="stylesheet" href="../style.css">
 
 # 電子契約について
