@@ -3,6 +3,7 @@ markdown: GFM
 title: ''
 ---
 <link rel="stylesheet" href="../style.css">
+
 # 電子契約について
 
 fusion_place のご契約は、**電子契約での締結が可能です。**
