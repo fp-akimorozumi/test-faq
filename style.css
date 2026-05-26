@@ -90,3 +90,10 @@ td:nth-child(6) {
 .site-title {
   display: none !important;
 }
+
+/* ページ全体の最大幅を制限して中央寄せにする */
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
