@@ -83,4 +83,4 @@ fusion_place cloud では、申込書に **3種類の通知先メールアドレ
 
 ## ■ 関連ページ
 
-- [計算年度について](./fiscal-year.md)
+- [申込書の準備](../workflow.md)  
