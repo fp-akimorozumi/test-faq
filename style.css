@@ -86,6 +86,22 @@ td:nth-child(6) {
 }
 
 /* 左上の"test_faq"のリンクを非表示にする */
+.site-header {
+  display: none;
+}
+
 .site-title {
+  display: none;
+}
+
+h1.site-title {
+  display: none;
+}
+
+.site-title a {
+  display: none;
+}
+
+eader {
   display: none;
 }
