@@ -78,7 +78,7 @@ fusion_place cloud では、申込書に **3種類の通知先メールアドレ
 
 ## ■ 参考リンク
 
-- [公式Q&A：通知先の詳細](https://docs.fusionplace.net/qanda/ja/others/Support_00603.html)
+- [公式Q&A：通知先メールアドレスの詳細](https://docs.fusionplace.net/qanda/ja/others/Support_00603.html)
 
 ## ■ 関連ページ
 
