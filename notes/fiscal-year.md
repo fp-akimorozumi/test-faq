@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # 計算年度について
 
 計算年度とは、fusion_place cloud のご利用料金を算出する際の  
