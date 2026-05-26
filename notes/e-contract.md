@@ -42,4 +42,4 @@ https://service10.wanbishi.ne.jp/info/wan-sign-manual-3.pdf
 
 ## ■ 関連ページ
 
-- [申込書の提出について](./workflow.md)
+- [申込書の準備](../workflow.md)
