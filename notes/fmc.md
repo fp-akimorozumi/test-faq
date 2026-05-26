@@ -34,4 +34,4 @@ fusion_place マネジメントコンソール（FMC）は、fusion_place cloud 
 
 ## ■ 関連ページ
 
-- FMCのご案内(workflow.md)
+- [FMCのご案内](../workflow.md)
