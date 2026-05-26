@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # FAQ（お客様からよくある質問）
 
 ##  料金
