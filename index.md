@@ -1,7 +1,11 @@
-<link rel="stylesheet" href="style.css">
+---
+markdown: GFM
+title: ''
+---
+
+<link rel="stylesheet" href="style.css" />
 
 # ＦＡＱ
-
 ---
 
 ## ご利用ガイド
