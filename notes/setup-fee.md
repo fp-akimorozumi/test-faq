@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="style.css">
+---
+markdown: GFM
+title: ''
+---
+
+<link rel="stylesheet" href="../style.css">
 
 # 初期設定料（環境セットアップ費用）について
 
