@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="style.css">
+---
+markdown: GFM
+title: ''
+---
+
+<link rel="stylesheet" href="../style.css">
 
 # フル機能ユーザと一般ユーザについて
 
