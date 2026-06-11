@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="style.css">
+---
+markdown: GFM
+title: ''
+---
+
+<link rel="stylesheet" href="../style.css">
 
 # オプション料金に関する初期設定手数料・月額費用
 
