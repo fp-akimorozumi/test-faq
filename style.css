@@ -1,10 +1,6 @@
-/* -----------------------------------------
-   Markdown の表デザイン（列幅・色を個別に設定可能）
------------------------------------------ */
-
-/* 表全体 */
+/* Markdown の表デザイン */
 table {
-  width: 100%;              /* 全体幅（必要なら80%などに変更） */
+  width: 100%;
   border-collapse: collapse;
   background: #ffffff;
   margin: 20px auto;
@@ -12,7 +8,6 @@ table {
   overflow: hidden;
 }
 
-/* セル共通 */
 th, td {
   border: 1px solid #ddd;
   padding: 10px 12px;
@@ -20,61 +15,23 @@ th, td {
   color: #333;
 }
 
-/* ヘッダー行の色 */
 th {
   background: #d8ecff;
   font-weight: bold;
   text-align: left;
 }
 
-/* 偶数行の色 */
 tbody tr:nth-child(even) {
   background: #f5faff;
 }
 
-/* -----------------------------------------
-   ★ 列ごとの幅設定（ここが重要）
-   nth-child(1) → 1列目
-   nth-child(2) → 2列目
-   …という意味
------------------------------------------ */
-
-/* 1列目（ステップ） */
-th:nth-child(1),
-td:nth-child(1) {
-  width: 60px;     /* 数字だけなので狭く */
-  text-align: center;
-}
-
-/* 2列目（内容） */
-th:nth-child(2),
-td:nth-child(2) {
-  width: 240px;    /* 内容が長いので広め */
-}
-
-/* 3列目（パートナー様担当） */
-th:nth-child(3),
-td:nth-child(3) {
-  width: 140px;
-}
-
-/* 4列目（フュージョンズ担当） */
-th:nth-child(4),
-td:nth-child(4) {
-  width: 140px;
-}
-
-/* 5列目（窓口） */
-th:nth-child(5),
-td:nth-child(5) {
-  width: 140px;
-}
-
-/* 6列目（注意点） */
-th:nth-child(6),
-td:nth-child(6) {
-  width: 200px;
-}
+/* 列幅指定 */
+th:nth-child(1), td:nth-child(1) { width: 60px; text-align: center; }
+th:nth-child(2), td:nth-child(2) { width: 240px; }
+th:nth-child(3), td:nth-child(3) { width: 140px; }
+th:nth-child(4), td:nth-child(4) { width: 140px; }
+th:nth-child(5), td:nth-child(5) { width: 140px; }
+th:nth-child(6), td:nth-child(6) { width: 200px; }
 
 /* スマホ対応 */
 @media (max-width: 600px) {
@@ -85,13 +42,13 @@ td:nth-child(6) {
   }
 }
 
-/* 左上の"test_faq"のリンクを非表示にする */
+/* サイトヘッダー非表示 */
 .site-header,
 .site-title {
   display: none !important;
 }
 
-/* ページ全体の最大幅を制限して中央寄せにする */
+/* ページ全体の最大幅と中央寄せ */
 body {
   padding: 40px;
   background: #f6f8fa;
