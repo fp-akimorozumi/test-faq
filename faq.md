@@ -36,7 +36,7 @@ TEL：03-6804-6247
 ### Q. 電子契約は可能でしょうか。
 A. はい。電子契約での締結が可能です。  
 弊社が利用している WAN-Sign、または お客様がお使いの電子契約サービス のいずれにも対応しております。
-詳細につきましては、フュージョンズご契約窓口（contact.fusions@fusions.co.jp）までお問い合わせください。
+詳細につきましては、フュージョンズご契約窓口[contact.fusions@fusions.co.jp](contact.fusions@fusions.co.jp)までお問い合わせください。
 
 ### Q. 電子契約は可能でしょうか。
 A. 登録可否は、担当者区分によって異なります。
@@ -50,8 +50,9 @@ A. 登録可否は、担当者区分によって異なります。
 特定のご担当者様の氏名および個人メールアドレスをご登録いただく必要があります。
 なお、問い合わせ対応を複数名で分担される場合は、「問い合わせ担当者の追加」（オプション／15,000円／月）をご利用いただけます。
 
-念のため、詳細は以下の公式Q&Aもご参照ください。
-https://docs.fusionplace.net/qanda/ja/others/Support_00603.html
+詳細は公式Q&Aもご参照ください。
+[https://docs.fusionplace.net/qanda/ja/others/Support_00603.html](https://docs.fusionplace.net/qanda/ja/others/Support_00603.html)
+
 
 ---
 
