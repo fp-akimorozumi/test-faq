@@ -9,7 +9,7 @@ title: 'ＦＡＱ'
 
   <!-- ▼ 左側サイドバー（Zoom風） -->
   <div class="sidebar">
-    <div class="sidebar-title">FAQ</div>
+    <div class="sidebar-title">ＦＡＱ</div>
 
     <a href="#料金">料金</a>
     <a href="#申込">申込</a>
