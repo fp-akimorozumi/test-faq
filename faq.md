@@ -12,10 +12,10 @@ title: 'ＦＡＱ'
     <div class="sidebar-title">ＦＡＱ</div>
 
     <a href="#料金">料金について</a>
-    <a href="#申込">申込</a>
-    <a href="#請求">請求</a>
-    <a href="#変更">変更</a>
-    <a href="#解約">解約</a>
+    <a href="#申込">申込について</a>
+    <a href="#請求">請求について</a>
+    <a href="#変更">変更について</a>
+    <a href="#解約">解約について</a>
   </div>
 
   <!-- ▼ 右側本文 -->
