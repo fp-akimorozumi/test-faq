@@ -19,7 +19,7 @@ title: 'FAQ'
   </div>
 
   <!-- ▼ 右側本文 -->
-  <div class="content">
+  <div class="content" markdown="1"> 
 
 # FAQ（お客様からよくある質問）
 
