@@ -1,14 +1,14 @@
 ---
 markdown: GFM
-title: ''
+title: 'パートナー向け 手順・FAQ サイト'
 ---
 
 <link rel="stylesheet" href="style.css" />
 
-# ＦＡＱ
+# パートナー向け 手順・FAQ サイト
 ---
 
-## ご利用ガイド
+## 手順
 - [手順・役割分担](workflow.html)
 
 ## FAQ（お客様向け）
