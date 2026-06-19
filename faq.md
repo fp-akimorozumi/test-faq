@@ -1,6 +1,6 @@
 ---
 markdown: GFM
-title: 'FAQ'
+title: 'ＦＡＱ'
 ---
 
 <link rel="stylesheet" href="style.css">
@@ -21,7 +21,7 @@ title: 'FAQ'
   <!-- ▼ 右側本文 -->
   <div class="content" markdown="1"> 
 
-# FAQ（お客様からよくある質問）
+# ＦＡＱ（お客様からよくある質問）
 
 ---
 
