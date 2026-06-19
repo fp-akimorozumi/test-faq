@@ -1,4 +1,6 @@
-/* Markdown の表デザイン */
+/* -----------------------------------------
+   Markdown の表デザイン
+----------------------------------------- */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -42,21 +44,78 @@ th:nth-child(6), td:nth-child(6) { width: 200px; }
   }
 }
 
-/* サイトヘッダー非表示 */
+/* -----------------------------------------
+   サイトヘッダー非表示
+----------------------------------------- */
 .site-header,
 .site-title {
   display: none !important;
 }
 
-/* ページ全体の最大幅と中央寄せ */
+/* -----------------------------------------
+   ページ全体の背景と中央寄せ
+----------------------------------------- */
 body {
   padding: 40px;
   background: #f6f8fa;
 }
 
+/* 既存の markdown-body の幅指定（FAQ本文には適用しない） */
 .markdown-body {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   background: white;
+}
+
+/* -----------------------------------------
+   ▼▼ Zoom風サイドバー レイアウト追加 ▼▼
+----------------------------------------- */
+
+/* 全体レイアウト（Zoom風） */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  max-width: 1200px; /* Zoomと同等の幅 */
+  margin: 0 auto;
+}
+
+/* 左側サイドバー */
+.sidebar {
+  width: 260px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-right: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* サイドバーのタイトル */
+.sidebar-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* サイドバーのメニュー */
+.sidebar a {
+  display: block;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.sidebar a:hover {
+  color: #0b5cff;
+}
+
+/* 右側本文 */
+.content {
+  flex: 1;
+  padding: 40px;
+  background: white;
+  border-radius: 8px;
 }
