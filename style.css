@@ -4,10 +4,8 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  background: #ffffff;
-  margin: 20px auto;
-  border-radius: 8px;
-  overflow: hidden;
+  margin: 20px 0;
+  background: #ffffff; /* ← 背景色は残す */
 }
 
 th, td {
@@ -18,16 +16,16 @@ th, td {
 }
 
 th {
-  background: #d8ecff;
+  background: #d8ecff; /* ← ヘッダーの背景色も残す */
   font-weight: bold;
   text-align: left;
 }
 
 tbody tr:nth-child(even) {
-  background: #f5faff;
+  background: #f5faff; /* ← 偶数行の背景色も残す */
 }
 
-/* スマホ対応 */
+/* スマホ対応（必須） */
 @media (max-width: 600px) {
   table {
     display: block;
