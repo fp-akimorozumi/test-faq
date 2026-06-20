@@ -5,7 +5,7 @@ title: 'パートナー向け 手順・FAQ サイト'
 
 <link rel="stylesheet" href="/test-faq/style.css">
 
-<div class="markdown-body">
+<div class="page-body">
 
 # パートナー向け 手順・FAQ サイト
 ---
