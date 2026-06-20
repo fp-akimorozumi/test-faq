@@ -5,6 +5,8 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
+<div class="markdown-body">
+
 # IPアドレスについて
 
 セキュリティ制限にIPアドレスの登録が可能です。
