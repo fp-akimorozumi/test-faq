@@ -56,7 +56,7 @@ th:nth-child(6), td:nth-child(6) { width: 200px; }
    ページ全体の背景と中央寄せ
 ----------------------------------------- */
 body {
-  padding: 40px;
+  padding: 60px 0;
   background: #f6f8fa;
 }
 
