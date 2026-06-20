@@ -65,29 +65,10 @@ tbody tr:nth-child(even) {
   max-width: 1200px !important;
 }
 
-/* -----------------------------------------
-   サイトヘッダー非表示（GitHub Pages の上部を隠す）
------------------------------------------ */
-.site-header,
-.site-title {
-  display: none !important;
-}
-
-/* -----------------------------------------
-   通常ページの本文レイアウト
-   - index / workflow などの基本ページ用
------------------------------------------ */
-.markdown-body {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 40px;
-  background: white;
-}
-
 /* FAQページ専用レイアウト（シンプル版） */
 .faq-page .layout {
   display: flex;
-  margin: 0 auto; /* max-width は削除 */
+  margin: 0 auto;
 }
 
 /* FAQ 左側の見出しリスト（FAQ専用サイドバー） */
@@ -108,11 +89,12 @@ tbody tr:nth-child(even) {
   font-size: 1rem;
 }
 
-/* FAQ 右側の本文エリア（白背景のみのシンプル表示） */
+/* FAQ 右側の本文エリア */
 .faq-page .content {
   flex: 1;
   padding: 40px;
   background: white;
+  overflow: visible; /* ← これが重要 */
 }
 
 /* FAQページでは markdown-body の制限を解除 */
