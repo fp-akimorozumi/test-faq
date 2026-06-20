@@ -75,7 +75,7 @@ body {
 
 /* 全ページ共通の本文幅 */
 .markdown-body {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px 40px;
   background: white;
