@@ -8,6 +8,7 @@ title: 'ＦＡＱ'
 <div class="faq-page">
   <div class="layout">
 
+    <!-- 左サイドバー -->
     <div class="sidebar">
       <div class="sidebar-title">ＦＡＱ</div>
 
@@ -18,6 +19,7 @@ title: 'ＦＡＱ'
       <a href="#解約">解約について</a>
     </div>
 
+    <!-- 右側：Markdown本文（notes と同じ .markdown-body が自動で付く） -->
     <div class="content" markdown="1">
 
 [パートナー向け 手順・FAQ サイト](./index.md)
