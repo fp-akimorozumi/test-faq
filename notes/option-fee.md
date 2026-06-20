@@ -5,7 +5,7 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
-<div class="markdown-body">
+<div class="page-body">
 
 # オプション料金に関する初期設定手数料・月額費用
 
