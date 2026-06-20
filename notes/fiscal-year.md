@@ -5,7 +5,7 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
-<div class="markdown-body">
+<div class="page-body">
 
 # 計算年度について
 
