@@ -140,8 +140,3 @@ tbody tr:nth-child(even) {
 .faq-page .content {
   padding: 40px !important;
 }
-
-/* FAQ のサイドバーリンクを必ず縦並びにする */
-.faq-page .sidebar a {
-  display: block !important;
-}
