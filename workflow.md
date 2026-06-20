@@ -5,7 +5,7 @@ title: '手順・役割分担'
 
 <link rel="stylesheet" href="/test-faq/style.css">
 
-<article class="markdown-body workflow-page">
+<div class="workflow-page">
 
 [パートナー向け 手順・FAQ サイト](/test-faq/)
 
@@ -25,7 +25,7 @@ title: '手順・役割分担'
 | 請求について（年度更新／変更時） | **［メール内容］請求書送付**<br>契約窓口より、お客様宛（契約関連事項連絡先／請求書送付先）へ送付。<br>パートナー様にもCC送付。<br><br>**送付タイミング**：契約更新月の1ヵ月前の月末<br>**支払期限**：請求書発行の翌月末 | △ | △ | 契約窓口 | — |
 | 更新時以外での<br>ご契約内容の変更について | 申込書による手続きが必要です。契約窓口に申込書をご提出ください。 | 〇 | — | 契約窓口 | — |
 
-</article>
+</div>
 
 ---
 
