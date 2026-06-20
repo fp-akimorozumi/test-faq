@@ -104,7 +104,7 @@ body:not(.faq-page):not(.workflow-page) .page-body {
 
 /* workflow ページの本文幅（中央寄せ＋余白あり） */
 body.workflow-page .page-body {
-  max-width: 1200px;
+  max-width: 1000px;
   padding: 40px;
   background: white;
 }
