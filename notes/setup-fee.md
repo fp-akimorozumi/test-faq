@@ -5,6 +5,8 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
+<div class="markdown-body">
+
 # 初期設定料（環境セットアップ費用）について
 
 - 初期設定料は **申込書には記載がございません**。必ず別途ご確認ください。  
