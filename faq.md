@@ -19,7 +19,6 @@ title: 'ＦＡＱ'
 </div>
 
 <div class="content" markdown="1">
-
 [パートナー向け 手順・FAQ サイト](./index.md)
 
 # お客さまからよくあるご質問（FAQ）
