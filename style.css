@@ -1,5 +1,5 @@
 /* -----------------------------------------
-   Markdown の表デザイン
+   Markdown の表デザイン（全ページ共通）
 ----------------------------------------- */
 table {
   width: 100%;
@@ -27,14 +27,6 @@ tbody tr:nth-child(even) {
   background: #f5faff;
 }
 
-/* 列幅指定 */
-th:nth-child(1), td:nth-child(1) { width: 90px; text-align: center; }
-th:nth-child(2), td:nth-child(2) { width: 240px; }
-th:nth-child(3), td:nth-child(3) { width: 130px; }
-th:nth-child(4), td:nth-child(4) { width: 130px; }
-th:nth-child(5), td:nth-child(5) { width: 130px; }
-th:nth-child(6), td:nth-child(6) { width: 200px; }
-
 /* スマホ対応 */
 @media (max-width: 600px) {
   table {
@@ -45,6 +37,27 @@ th:nth-child(6), td:nth-child(6) { width: 200px; }
 }
 
 /* -----------------------------------------
+   手順ページ（workflow）専用の列幅
+----------------------------------------- */
+.workflow-page th:nth-child(1),
+.workflow-page td:nth-child(1) { width: 90px; text-align: center; }
+
+.workflow-page th:nth-child(2),
+.workflow-page td:nth-child(2) { width: 240px; }
+
+.workflow-page th:nth-child(3),
+.workflow-page td:nth-child(3) { width: 130px; }
+
+.workflow-page th:nth-child(4),
+.workflow-page td:nth-child(4) { width: 130px; }
+
+.workflow-page th:nth-child(5),
+.workflow-page td:nth-child(5) { width: 130px; }
+
+.workflow-page th:nth-child(6),
+.workflow-page td:nth-child(6) { width: 200px; }
+
+/* -----------------------------------------
    サイトヘッダー非表示
 ----------------------------------------- */
 .site-header,
@@ -53,14 +66,14 @@ th:nth-child(6), td:nth-child(6) { width: 200px; }
 }
 
 /* -----------------------------------------
-   ページ全体の背景と中央寄せ
+   ページ全体の背景と中央寄せ（全ページ共通）
 ----------------------------------------- */
 body {
   padding: 60px 100px;
   background: #f6f8fa;
 }
 
-/* 既存の markdown-body の幅指定（FAQ本文には適用しない） */
+/* 全ページ共通の本文幅 */
 .markdown-body {
   max-width: 650px;
   margin: 0 auto;
@@ -70,18 +83,15 @@ body {
 }
 
 /* -----------------------------------------
-   ▼▼ Zoom風サイドバー レイアウト追加 ▼▼
+   ▼▼ Zoom風サイドバー（FAQページ専用） ▼▼
 ----------------------------------------- */
-
-/* 全体レイアウト（Zoom風） */
 .layout {
   display: flex;
   min-height: 100vh;
-  max-width: 1200px; /* Zoomと同等の幅 */
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-/* 左側サイドバー */
 .sidebar {
   width: 260px;
   padding: 20px;
@@ -93,14 +103,12 @@ body {
   overflow-y: auto;
 }
 
-/* サイドバーのタイトル */
 .sidebar-title {
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-/* サイドバーのメニュー */
 .sidebar a {
   display: block;
   padding: 8px 0;
@@ -113,7 +121,6 @@ body {
   color: #0b5cff;
 }
 
-/* 右側本文 */
 .content {
   flex: 1;
   padding: 40px;
