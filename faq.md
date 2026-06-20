@@ -5,19 +5,21 @@ title: 'ＦＡＱ'
 
 <link rel="stylesheet" href="/test-faq/style.css">
 
-<div class="layout faq-page">
+<div class="faq-page">
 
-  <div class="sidebar">
-    <div class="sidebar-title">ＦＡＱ</div>
+  <div class="layout">
 
-    <a href="#料金">料金について</a>
-    <a href="#申込">申込について</a>
-    <a href="#請求">請求について</a>
-    <a href="#変更">変更について</a>
-    <a href="#解約">解約について</a>
-  </div>
+    <div class="sidebar">
+      <div class="sidebar-title">ＦＡＱ</div>
 
-  <div class="content" markdown="1">
+      <a href="#料金">料金について</a>
+      <a href="#申込">申込について</a>
+      <a href="#請求">請求について</a>
+      <a href="#変更">変更について</a>
+      <a href="#解約">解約について</a>
+    </div>
+
+    <div class="content" markdown="1">
 
 [パートナー向け 手順・FAQ サイト](./index.md)
 
