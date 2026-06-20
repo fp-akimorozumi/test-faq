@@ -5,6 +5,8 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
+<div class="markdown-body">
+
 # FMCとは
 
 fusion_place マネジメントコンソール（FMC）は、fusion_place cloud の運用状況を確認・管理するための専用コンソールです。  
