@@ -5,7 +5,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
-  background: #ffffff; /* ← 背景色は残す */
+  background: #ffffff;
 }
 
 th, td {
@@ -16,16 +16,16 @@ th, td {
 }
 
 th {
-  background: #d8ecff; /* ← ヘッダーの背景色も残す */
+  background: #d8ecff;
   font-weight: bold;
   text-align: left;
 }
 
 tbody tr:nth-child(even) {
-  background: #f5faff; /* ← 偶数行の背景色も残す */
+  background: #f5faff;
 }
 
-/* スマホ対応（必須） */
+/* スマホ対応 */
 @media (max-width: 600px) {
   table {
     display: block;
@@ -39,7 +39,7 @@ tbody tr:nth-child(even) {
 ----------------------------------------- */
 .workflow-page table {
   width: 100%;
-  min-width: 1200px; /* ← 表を広げて改行を減らす */
+  min-width: 1200px;
 }
 
 .workflow-page th:nth-child(1),
@@ -60,17 +60,18 @@ tbody tr:nth-child(even) {
 .workflow-page th:nth-child(6),
 .workflow-page td:nth-child(6) { width: 200px; }
 
-/* workflow ページの本文幅を広げて右寄り問題を解消 */
-.workflow-page.markdown-body {
-  max-width: 1200px !important;
+/* workflow の本文幅（安全版） */
+.workflow-page .markdown-body {
+  max-width: 1200px;
 }
 
-/* FAQページ全体のレイアウト：左サイドバー＋右本文 */
+/* -----------------------------------------
+   FAQページ：左サイドバー＋右本文
+----------------------------------------- */
 .faq-page .layout {
   display: flex;
 }
 
-/* 左側：FAQ専用サイドバー */
 .faq-page .sidebar {
   width: 240px;
   padding: 20px;
@@ -78,7 +79,6 @@ tbody tr:nth-child(even) {
   border-right: 1px solid #ddd;
 }
 
-/* サイドバー内リンク */
 .faq-page .sidebar a {
   display: block;
   padding: 10px 0;
@@ -88,10 +88,7 @@ tbody tr:nth-child(even) {
   font-size: 0.95rem;
 }
 
-/* 右側：本文コンテナ（中身は .markdown-body に任せる） */
 .faq-page .content {
   flex: 1;
-  /* ここでは幅やmax-widthは指定しない */
-  /* paddingもなくてもOK。余白が欲しければ少しだけ足す */
   padding: 20px 0 20px 40px;
 }
