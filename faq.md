@@ -5,9 +5,8 @@ title: 'ＦＡＱ'
 
 <link rel="stylesheet" href="style.css">
 
-<div class="layout">
+<div class="layout faq-page">
 
-  <!-- ▼ 左側サイドバー（Zoom風） -->
   <div class="sidebar">
     <div class="sidebar-title">ＦＡＱ</div>
 
@@ -18,8 +17,7 @@ title: 'ＦＡＱ'
     <a href="#解約">解約について</a>
   </div>
 
-  <!-- ▼ 右側本文 -->
-  <div class="content" markdown="1"> 
+  <div class="content" markdown="1">
 
 [パートナー向け 手順・FAQ サイト](./index.md)
 
