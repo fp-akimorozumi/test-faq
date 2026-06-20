@@ -19,8 +19,8 @@ title: 'パートナー向け 手順・FAQ サイト'
 ## FAQ（パートナー向け）
 - （準備中）
 
-</div>
-
 ---
 
 © 2026 FAQ Sample Site
+
+</div>
