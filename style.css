@@ -62,10 +62,11 @@ body {
 
 /* 既存の markdown-body の幅指定（FAQ本文には適用しない） */
 .markdown-body {
-  max-width: 600px;
+  max-width: 720px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px 60px;
   background: white;
+  border-radius: 8px;
 }
 
 /* -----------------------------------------
