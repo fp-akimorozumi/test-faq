@@ -6,6 +6,7 @@ title: '手順・役割分担'
 <link rel="stylesheet" href="/test-faq/style.css">
 
 <div class="workflow-page">
+<div class="page-body">
 
 [パートナー向け 手順・FAQ サイト](/test-faq/)
 
