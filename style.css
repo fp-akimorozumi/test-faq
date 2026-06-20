@@ -37,11 +37,11 @@ tbody tr:nth-child(even) {
 }
 
 /* -----------------------------------------
-   手順ページ（workflow）専用の列幅
+   workflow（手順ページ）専用
 ----------------------------------------- */
 .workflow-page table {
   width: 100%;
-  min-width: 1200px; /* ← 表全体を広げる（改行を減らす） */
+  min-width: 1200px; /* ← 表を広げて改行を減らす */
 }
 
 .workflow-page th:nth-child(1),
@@ -71,18 +71,10 @@ tbody tr:nth-child(even) {
 }
 
 /* -----------------------------------------
-   ページ全体の背景（全ページ共通）
------------------------------------------ */
-body {
-  padding: 60px 100px;
-  background: #f6f8fa;
-}
-
-/* -----------------------------------------
-   Markdown本文の標準レイアウト（通常ページ用）
+   通常ページの本文レイアウト
 ----------------------------------------- */
 .markdown-body {
-  max-width: 900px; /* ← 読みやすい幅に最適化 */
+  max-width: 900px; /* ← 読みやすい幅 */
   margin: 0 auto;
   padding: 40px;
   background: white;
@@ -90,12 +82,12 @@ body {
 }
 
 /* -----------------------------------------
-   ▼▼ FAQページ専用レイアウト ▼▼
+   FAQページ専用レイアウト
 ----------------------------------------- */
 .layout {
   display: flex;
   min-height: 100vh;
-  max-width: 1100px; /* ← サイドバーとのバランス最適化 */
+  max-width: 1100px; /* ← サイドバーとのバランス最適 */
   margin: 0 auto;
 }
 
@@ -135,7 +127,7 @@ body {
   border-radius: 8px;
 }
 
-/* FAQページでは markdown-body のレイアウトを完全解除 */
+/* FAQページでは markdown-body を完全リセット */
 .faq-page .markdown-body {
   max-width: none !important;
   margin: 0 !important;
@@ -144,7 +136,7 @@ body {
   border-radius: 0 !important;
 }
 
-/* FAQページでは content の余白を調整 */
+/* FAQページの本文余白 */
 .faq-page .content {
   padding: 40px !important;
 }
