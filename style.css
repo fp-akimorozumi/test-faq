@@ -62,6 +62,11 @@ tbody tr:nth-child(even) {
 .workflow-page th:nth-child(6),
 .workflow-page td:nth-child(6) { width: 200px; }
 
+/* workflow ページの本文幅を広げて右寄り問題を解消 */
+.workflow-page.markdown-body {
+  max-width: 1200px !important;
+}
+
 /* -----------------------------------------
    サイトヘッダー非表示
 ----------------------------------------- */
