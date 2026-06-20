@@ -84,13 +84,10 @@ tbody tr:nth-child(even) {
   background: white;
 }
 
-/* -----------------------------------------
-   FAQページ専用レイアウト（シンプル版）
------------------------------------------ */
+/* FAQページ専用レイアウト（シンプル版） */
 .faq-page .layout {
   display: flex;
-  max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto; /* max-width は削除 */
 }
 
 /* FAQ 左側の見出しリスト（FAQ専用サイドバー） */
