@@ -3,7 +3,9 @@ markdown: GFM
 title: 'パートナー向け 手順・FAQ サイト'
 ---
 
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="/test-faq/style.css">
+
+<div class="markdown-body">
 
 # パートナー向け 手順・FAQ サイト
 ---
@@ -16,6 +18,8 @@ title: 'パートナー向け 手順・FAQ サイト'
 
 ## FAQ（パートナー向け）
 - （準備中）
+
+</div>
 
 ---
 
