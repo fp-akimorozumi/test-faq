@@ -11,11 +11,11 @@ title: 'ＦＡＱ'
 <div class="sidebar">
   <div class="sidebar-title">ＦＡＱ</div>
 
-  <a href="#料金">料金について</a>
-  <a href="#申込">申込について</a>
-  <a href="#請求">請求について</a>
-  <a href="#変更">変更について</a>
-  <a href="#解約">解約について</a>
+  <a href="#料金">料金について</a>  
+  <a href="#申込">申込について</a>  
+  <a href="#請求">請求について</a>  
+  <a href="#変更">変更について</a>  
+  <a href="#解約">解約について</a>  
 </div>
 
 <div class="content" markdown="1">
