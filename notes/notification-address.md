@@ -5,6 +5,8 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
+<div class="markdown-body">
+
 # 通知先メールアドレスについて
 
 fusion_place cloud では、申込書に **3種類の通知先メールアドレス** をご記入いただきます。  
