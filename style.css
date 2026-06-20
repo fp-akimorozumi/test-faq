@@ -117,3 +117,11 @@ tbody tr:nth-child(even) {
   padding: 40px;
   background: white;
 }
+
+/* FAQページでは markdown-body の制限を解除 */
+.faq-page .markdown-body {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+}
