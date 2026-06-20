@@ -75,20 +75,11 @@ body.workflow-page .markdown-body {
 .faq-page .sidebar {
   width: 240px;
   padding: 20px;
-  background-color: #fafafa;
+  background: #fafafa;
   border-right: 1px solid #ddd;
-}
-
-.faq-page .sidebar a {
-  display: block;
-  padding: 10px 0;
-  border-bottom: 1px solid #eee;
-  color: #333;
-  text-decoration: none;
-  font-size: 0.95rem;
 }
 
 .faq-page .content {
   flex: 1;
-  padding: 20px 0 20px 40px;
+  padding-left: 40px;
 }
