@@ -5,6 +5,8 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
+<div class="markdown-body">
+
 # フル機能ユーザと一般ユーザについて
 
 fusion_place では、ユーザ権限は大きく **「フル機能ユーザ」** と **「一般ユーザ」** の2種類に分かれています。  
