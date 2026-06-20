@@ -6,21 +6,19 @@ title: 'ＦＡＱ'
 <link rel="stylesheet" href="/test-faq/style.css">
 
 <div class="faq-page">
-  <div class="layout">
+<div class="layout">
 
-    <!-- 左サイドバー -->
-    <div class="sidebar">
-      <div class="sidebar-title">ＦＡＱ</div>
+<div class="sidebar">
+  <div class="sidebar-title">ＦＡＱ</div>
 
-      <a href="#料金">料金について</a>
-      <a href="#申込">申込について</a>
-      <a href="#請求">請求について</a>
-      <a href="#変更">変更について</a>
-      <a href="#解約">解約について</a>
-    </div>
+  <a href="#料金">料金について</a>
+  <a href="#申込">申込について</a>
+  <a href="#請求">請求について</a>
+  <a href="#変更">変更について</a>
+  <a href="#解約">解約について</a>
+</div>
 
-    <!-- 右側：Markdown本文（notes と同じ .markdown-body が自動で付く） -->
-    <div class="content" markdown="1">
+<div class="content" markdown="1">
 
 [パートナー向け 手順・FAQ サイト](./index.md)
 
@@ -153,6 +151,6 @@ A. 契約関連連絡先として登録されているご担当者様より、
 A. いいえ、返金はございません。  
 年払い契約における 未経過月分の返金は行っておりません。
 
-   </div>
-  </div>
+</div>
+</div>
 </div>
