@@ -127,3 +127,11 @@ body {
   background: white;
   border-radius: 8px;
 }
+
+/* FAQページでは markdown-body の幅制限を解除 */
+.faq-page .markdown-body {
+  max-width: none;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+}
