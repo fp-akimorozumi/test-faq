@@ -56,13 +56,13 @@ th:nth-child(6), td:nth-child(6) { width: 200px; }
    ページ全体の背景と中央寄せ
 ----------------------------------------- */
 body {
-  padding: 60px 60px;
+  padding: 60px 100px;
   background: #f6f8fa;
 }
 
 /* 既存の markdown-body の幅指定（FAQ本文には適用しない） */
 .markdown-body {
-  max-width: 720px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 40px 60px;
   background: white;
