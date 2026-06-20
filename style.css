@@ -60,8 +60,8 @@ tbody tr:nth-child(even) {
 .workflow-page th:nth-child(6),
 .workflow-page td:nth-child(6) { width: 200px; }
 
-/* workflow の本文幅（安全版） */
-.workflow-page .markdown-body {
+/* workflow の本文幅（index に影響しない安全版） */
+body.workflow-page .markdown-body {
   max-width: 1200px;
 }
 
