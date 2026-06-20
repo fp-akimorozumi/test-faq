@@ -1,8 +1,7 @@
 <link rel="stylesheet" href="style.css">
-
 <article class="markdown-body workflow-page">
 
- [パートナー向け 手順・FAQ サイト](./index.md)
+[パートナー向け 手順・FAQ サイト](./index.md)
 
 # 手順・役割分担
 見積書の作成から申込書によるお申し込み手続き、請求書の発行、更新手続きまで、お客様に関わる一連の流れをステップごとにご説明しています。
