@@ -96,10 +96,15 @@ body:not(.faq-page):not(.workflow-page) .page-body {
   background: white;
 }
 
-/* workflow の本文幅 */
+/* workflow ページのレイアウトを中央寄せにする */
+.workflow-page .layout {
+  display: flex;
+  justify-content: center;
+}
+
+/* workflow ページの本文幅（中央寄せ＋余白あり） */
 body.workflow-page .page-body {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: 1200px;
   padding: 40px;
   background: white;
 }
