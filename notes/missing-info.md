@@ -5,6 +5,8 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
+<div class="markdown-body">
+  
 # 記入漏れについて
 
 申込書をご提出いただく際は、**記入漏れがないかご確認をお願いいたします。**
