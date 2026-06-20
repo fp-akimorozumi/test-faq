@@ -1,6 +1,12 @@
-<link rel="stylesheet" href="style.css">
+---
+markdown: GFM
+title: '手順・役割分担'
+---
+
+<link rel="stylesheet" href="/test-faq/style.css">
+
 <article class="markdown-body workflow-page">
-  
+
 [パートナー向け 手順・FAQ サイト](/test-faq/)
 
 # 手順・役割分担
