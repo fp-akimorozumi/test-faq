@@ -84,10 +84,10 @@ tbody tr:nth-child(even) {
 /* -----------------------------------------
    FAQページ専用レイアウト
 ----------------------------------------- */
-.layout {
+.faq-page .layout {
   display: flex;
   min-height: 100vh;
-  max-width: 1100px; /* ← サイドバーとのバランス最適 */
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ tbody tr:nth-child(even) {
   color: #0b5cff;
 }
 
-.content {
+.faq-page .content {
   flex: 1;
   padding: 40px;
   background: white;
