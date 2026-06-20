@@ -5,6 +5,8 @@ title: ''
 
 <link rel="stylesheet" href="../style.css">
 
+<div class="markdown-body">
+
 # オプション料金に関する初期設定手数料・月額費用
 
 オプション機能をご利用いただく場合、以下の初期設定手数料および月額費用を申し受けます。  
