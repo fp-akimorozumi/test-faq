@@ -88,7 +88,9 @@ body.workflow-page .markdown-body {
   padding-left: 40px;
 }
 
-/* 通常ページ（index / notes）用の本文幅 */
+/* -----------------------------------------
+   通常ページ（index / notes）用の本文幅
+----------------------------------------- */
 body:not(.faq-page):not(.workflow-page) .page-body {
   max-width: 900px;
   margin: 0 auto;
@@ -96,14 +98,15 @@ body:not(.faq-page):not(.workflow-page) .page-body {
   background: white;
 }
 
-/* workflow ページ全体を中央寄せコンテナにする */
+/* -----------------------------------------
+   workflow ページ：中央寄せ＋本文幅
+----------------------------------------- */
 .workflow-page {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-/* workflow の本文幅 */
 .workflow-page .page-body {
   max-width: 1100px;
   padding: 40px;
