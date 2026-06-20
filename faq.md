@@ -6,7 +6,6 @@ title: 'ＦＡＱ'
 <link rel="stylesheet" href="/test-faq/style.css">
 
 <div class="faq-page">
-
   <div class="layout">
 
     <div class="sidebar">
