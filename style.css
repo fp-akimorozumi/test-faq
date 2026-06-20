@@ -65,13 +65,12 @@ tbody tr:nth-child(even) {
   max-width: 1200px !important;
 }
 
-/* FAQページ専用レイアウト（シンプル版） */
+/* FAQページ全体のレイアウト：左サイドバー＋右本文 */
 .faq-page .layout {
   display: flex;
-  margin: 0 auto;
 }
 
-/* FAQ 左側の見出しリスト（FAQ専用サイドバー） */
+/* 左側：FAQ専用サイドバー */
 .faq-page .sidebar {
   width: 240px;
   padding: 20px;
@@ -79,28 +78,20 @@ tbody tr:nth-child(even) {
   border-right: 1px solid #ddd;
 }
 
-/* サイドバーのリンク（見出し項目） */
+/* サイドバー内リンク */
 .faq-page .sidebar a {
   display: block;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
   color: #333;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
-/* FAQ 右側の本文エリア */
+/* 右側：本文コンテナ（中身は .markdown-body に任せる） */
 .faq-page .content {
   flex: 1;
-  padding: 40px;
-  background: white;
-  overflow: visible; /* ← これが重要 */
-}
-
-/* FAQページでは markdown-body の制限を解除 */
-.faq-page .markdown-body {
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  background: none !important;
+  /* ここでは幅やmax-widthは指定しない */
+  /* paddingもなくてもOK。余白が欲しければ少しだけ足す */
+  padding: 20px 0 20px 40px;
 }
