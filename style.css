@@ -60,13 +60,8 @@ tbody tr:nth-child(even) {
 .workflow-page th:nth-child(6),
 .workflow-page td:nth-child(6) { width: 200px; }
 
-/* workflow の本文幅（index に影響しない安全版） */
-body.workflow-page .markdown-body {
-  max-width: 1200px;
-}
-
 /* -----------------------------------------
-   FAQページ：左サイドバー＋右本文
+   FAQページ：左サイドバー＋右本文（FAQ に限定）
 ----------------------------------------- */
 .faq-page .layout {
   display: flex;
@@ -96,19 +91,51 @@ body:not(.faq-page):not(.workflow-page) .page-body {
   margin: 0 auto;
   padding: 40px;
   background: white;
+  box-sizing: border-box;
 }
 
 /* -----------------------------------------
    workflow ページ：中央寄せ＋本文幅
+   FAQ の副作用を上書きする（!important 不使用）
 ----------------------------------------- */
 .workflow-page {
   display: flex;
   justify-content: center;
   width: 100%;
+  box-sizing: border-box;
 }
 
+/* workflow の本文 */
+.workflow-page > .page-body,
 .workflow-page .page-body {
   max-width: 1100px;
+  width: 100%;
   padding: 40px;
   background: white;
+  box-sizing: border-box;
+}
+
+/* workflow 内に誤って残った FAQ クラスを無効化する（優先度を上げて上書き） */
+.workflow-page .layout {
+  /* FAQ の flex レイアウトを無効化してブロックに戻す */
+  display: block;
+}
+
+.workflow-page .sidebar {
+  /* workflow ではサイドバーを表示しない */
+  display: none;
+  width: auto;
+  padding: 0;
+  background: transparent;
+  border-right: none;
+  position: static;
+  height: auto;
+  overflow: visible;
+}
+
+.workflow-page .content {
+  /* content の余白をリセット */
+  flex: none;
+  padding-left: 0;
+  margin: 0;
 }
