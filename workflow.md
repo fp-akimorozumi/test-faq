@@ -17,6 +17,7 @@ title: '手順・役割分担'
 
 <div class="sidebar">
 <div class="sidebar-title">ＦＡＱ</div>  
+  
  <a href="#見積書の作成">見積書の作成</a>  
  <a href="#申込書の準備">申込書の準備</a>  
  <a href="#申込書の提出">申込書の提出</a>  
