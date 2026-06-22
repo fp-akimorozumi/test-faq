@@ -9,28 +9,26 @@ title: '手順・役割分担'
 <div class="page-body">
   
 [パートナー向け 手順・FAQ サイト](/test-faq/) -->
-
+   
 <link rel="stylesheet" href="/test-faq/style.css">
 
 <div class="workflow-page faq-layout">
 <div class="layout">
 
-<!-- 左サイドバー（ここにリンクを入れる） -->
-<aside class="sidebar">
-<ul>
- <li><a href="#見積書の作成">見積書の作成</a></li>
- <li><a href="#申込書の準備">申込書の準備</a></li>
- <li><a href="#申込書の提出">申込書の提出</a></li>
- <li><a href="#クラウド環境準備">クラウド環境準備</a></li>
- <li><a href="#ご利用開始のお知らせ">ご利用開始のお知らせ</a></li>
- <li><a href="#FMCのご案内">FMCのご案内</a></li>
- <li><a href="#新規契約に伴う許諾書および請求書の送付">新規契約に伴う許諾書および請求書の送付</a></li>
- <li><a href="#更新のご案内">更新のご案内</a></li>
- <li><a href="#請求について年度更新変更時">請求について（年度更新／変更時）</a></li>
- <li><a href="#更新時以外でのご契約内容の変更について">更新時以外でのご契約内容の変更について</a></li>
-</ul>
-</aside>
-<!-- 右側の本文 -->
+<div class="sidebar">
+<div class="sidebar-title">ＦＡＱ</div>
+ <a href="#見積書の作成">見積書の作成</a>
+ <a href="#申込書の準備">申込書の準備</a>
+ <a href="#申込書の提出">申込書の提出</a>
+ <a href="#クラウド環境準備">クラウド環境準備</a>
+ <a href="#ご利用開始のお知らせ">ご利用開始のお知らせ</a>
+ <a href="#FMCのご案内">FMCのご案内</a>
+ <a href="#新規契約に伴う許諾書および請求書の送付">新規契約に伴う許諾書および請求書の送付</a>
+ <a href="#更新のご案内">更新のご案内</a>
+ <a href="#請求について年度更新変更時">請求について（年度更新／変更時）</a><
+ <a href="#更新時以外でのご契約内容の変更について">更新時以外でのご契約内容の変更について</a>
+</div>
+
 <div class="content">
 <div class="page-body">
 
