@@ -140,7 +140,7 @@ body:not(.faq-page):not(.workflow-page) .page-body {
   margin: 0;
 }
 
-/* 0622追記 */
+/* 0622追記
 .workflow-page.faq-layout .layout { display: flex; }
 .workflow-page.faq-layout .sidebar {
   display: none;
@@ -158,4 +158,4 @@ body:not(.faq-page):not(.workflow-page) .page-body {
   flex: none;
   padding-left: 0;
   margin: 0;
-}
+} */
