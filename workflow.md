@@ -8,7 +8,7 @@ title: '手順・役割分担'
 <div class="workflow-page">
 <div class="page-body">
   
-[パートナー向け 手順・FAQ サイト](/test-faq/)
+[パートナー向け 手順・FAQ サイト](./index.md)
    
 <!--<link rel="stylesheet" href="/test-faq/style.css">
 
