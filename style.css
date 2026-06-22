@@ -139,3 +139,21 @@ body:not(.faq-page):not(.workflow-page) .page-body {
   padding-left: 0;
   margin: 0;
 }
+
+.workflow-page.faq-layout .layout { display: flex; }
+.workflow-page.faq-layout .sidebar {
+  display: none;
+  width: auto;
+  padding: 0;
+  background: transparent;
+  border-right: none;
+  position: static;
+  height: auto;
+  overflow: visible;
+}
+.workflow-page.faq-layout .content {
+  /* content の余白をリセット */
+  flex: none;
+  padding-left: 0;
+  margin: 0;
+}
