@@ -140,6 +140,7 @@ body:not(.faq-page):not(.workflow-page) .page-body {
   margin: 0;
 }
 
+/* 0622追記 */
 .workflow-page.faq-layout .layout { display: flex; }
 .workflow-page.faq-layout .sidebar {
   display: none;
@@ -151,6 +152,7 @@ body:not(.faq-page):not(.workflow-page) .page-body {
   height: auto;
   overflow: visible;
 }
+
 .workflow-page.faq-layout .content {
   /* content の余白をリセット */
   flex: none;
