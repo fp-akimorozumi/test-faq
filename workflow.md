@@ -30,8 +30,7 @@ title: '手順・役割分担'
  <a href="#更新時以外でのご契約内容の変更について">更新時以外でのご契約内容の変更について</a>  
 </div>
 
-<div class="content">
-<div class="page-body">
+<div class="content" markdown="1">
 
 [パートナー向け 手順・FAQ サイト](/test-faq/)
 
