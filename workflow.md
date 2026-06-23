@@ -5,19 +5,15 @@ title: '手順・役割分担'
 
 <link rel="stylesheet" href="/test-faq/style.css">
 
-<div class="workflow-page">
+<div class="faq-page">
 <div class="layout">
-
-<div class="content" markdown="1">
-  
-[パートナー向け 手順・FAQ サイト](./index.md)
-   
+ 
 <!--<link rel="stylesheet" href="/test-faq/style.css">
 
 <div class="workflow-page faq-layout">
-<div class="page-body">
+<div class="page-body">-->
 
-<!--<div class="sidebar">
+<div class="sidebar">
 <div class="sidebar-title">ＦＡＱ</div>  
   
  <a href="#見積書の作成">見積書の作成</a>  
