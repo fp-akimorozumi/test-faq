@@ -6,7 +6,7 @@ title: '手順・役割分担'
 <link rel="stylesheet" href="/test-faq/style.css">
 
 <div class="workflow-page">
-<div class="page-body">
+<div class="layout">
 
 <div class="content" markdown="1">
   
@@ -15,7 +15,7 @@ title: '手順・役割分担'
 <!--<link rel="stylesheet" href="/test-faq/style.css">
 
 <div class="workflow-page faq-layout">
-<div class="layout">
+<div class="page-body">
 
 <!--<div class="sidebar">
 <div class="sidebar-title">ＦＡＱ</div>  
