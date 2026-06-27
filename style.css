@@ -68,7 +68,7 @@ tbody tr:nth-child(even) {
 /* -----------------------------------------
    通常ページ（index / notes）用の本文幅
 ----------------------------------------- */
-body:not(.faq-page) .page-body {
+body:not(.faq-page):not(.workflow-page) .page-body {
   max-width: 900px;
   margin: 0 auto;
   padding: 40px;
