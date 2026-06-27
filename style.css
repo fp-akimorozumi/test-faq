@@ -35,7 +35,7 @@ tbody tr:nth-child(even) {
 }
 
 /* -----------------------------------------
-   FAQページ（＝workflow もこの構造で動いている）
+   FAQページ（workflow もこの構造で動いている）
 ----------------------------------------- */
 .faq-page .layout {
   display: flex;
@@ -44,7 +44,7 @@ tbody tr:nth-child(even) {
 .faq-page .sidebar {
   width: 240px;
   padding: 20px;
-  background: #fafafa; /* ← 白にしたいなら #fff に変更 */
+  background: #fff; /* ← 白に変更（あなたの希望） */
   border-right: 1px solid #ddd;
   position: sticky;
   top: 0;
@@ -57,7 +57,7 @@ tbody tr:nth-child(even) {
   padding-left: 40px;
 }
 
-/* workflow の表幅も FAQ と同じ構造で動いているためここで指定 */
+/* FAQ と workflow の表幅（共通） */
 .faq-page table {
   min-width: 1200px;
   display: block;
@@ -68,7 +68,7 @@ tbody tr:nth-child(even) {
 /* -----------------------------------------
    通常ページ（index / notes）用の本文幅
 ----------------------------------------- */
-body:not(.faq-page):not(.workflow-page) .page-body {
+body:not(.faq-page) .page-body {
   max-width: 900px;
   margin: 0 auto;
   padding: 40px;
