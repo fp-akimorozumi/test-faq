@@ -44,7 +44,7 @@ tbody tr:nth-child(even) {
 .faq-page .sidebar {
   width: 240px;
   padding: 20px;
-  background: #fff; /* ← 白に変更（あなたの希望） */
+  background: #fff; /* ← 白背景 */
   border-right: 1px solid #ddd;
   position: sticky;
   top: 0;
