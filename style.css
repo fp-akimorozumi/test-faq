@@ -35,7 +35,33 @@ tbody tr:nth-child(even) {
 }
 
 /* -----------------------------------------
-   FAQページ（workflow もこの構造で動いている）
+   workflow（手順ページ）専用
+----------------------------------------- */
+.workflow-page table {
+  width: 100%;
+  min-width: 1200px;
+}
+
+.workflow-page th:nth-child(1),
+.workflow-page td:nth-child(1) { width: 90px; text-align: center; }
+
+.workflow-page th:nth-child(2),
+.workflow-page td:nth-child(2) { width: 240px; }
+
+.workflow-page th:nth-child(3),
+.workflow-page td:nth-child(3) { width: 130px; }
+
+.workflow-page th:nth-child(4),
+.workflow-page td:nth-child(4) { width: 130px; }
+
+.workflow-page th:nth-child(5),
+.workflow-page td:nth-child(5) { width: 130px; }
+
+.workflow-page th:nth-child(6),
+.workflow-page td:nth-child(6) { width: 200px; }
+
+/* -----------------------------------------
+   FAQページ：左サイドバー＋右本文（FAQ に限定）
 ----------------------------------------- */
 .faq-page .layout {
   display: flex;
@@ -44,7 +70,7 @@ tbody tr:nth-child(even) {
 .faq-page .sidebar {
   width: 240px;
   padding: 20px;
-  background: #fff; /* ← 白背景 */
+  background: #fafafa;
   border-right: 1px solid #ddd;
   position: sticky;
   top: 0;
@@ -57,21 +83,16 @@ tbody tr:nth-child(even) {
   padding-left: 40px;
 }
 
-/* FAQ と workflow の表幅（共通） */
-.faq-page table {
-  min-width: 1200px;
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
 /* -----------------------------------------
    通常ページ（index / notes）用の本文幅
 ----------------------------------------- */
-body:not(.faq-page) .page-body {
+body:not(.faq-page):not(.workflow-page) .page-body {
   max-width: 900px;
   margin: 0 auto;
   padding: 40px;
   background: white;
   box-sizing: border-box;
 }
+
+/* -----------------------------------------
+   workflow
