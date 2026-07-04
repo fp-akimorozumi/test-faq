@@ -11,7 +11,7 @@ title: 'パートナー様向け共有事項'
 <div class="sidebar">
   <div class="sidebar-title">共有事項</div>
 
-  <a href="#手数料報告書">手数料報告書</a>
+  <a href="#手数料報告書">手数料報告書</a>  
   <a href="#「営業活動のための fusion_place 割引提供プログラム」">「営業活動のための fusion_place 割引提供プログラム」</a>  
   <a href="#請求関連">請求関連</a>  
   <a href="#その他">その他</a>  
